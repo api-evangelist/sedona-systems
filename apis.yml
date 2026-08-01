@@ -1,8 +1,24 @@
 aid: sedona-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sedona-systems.png
 name: Sedona Systems
-description: 'Sedona Systems is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Sedona Systems was an Israeli deep-tech networking company (multi-layer / multi-domain
+  network optimization and hierarchical control for optical and IP transport networks) surfaced as a
+  portfolio company of bessemer-venture-partners. As of this enrichment pass the company no longer
+  operates independently: its website sedonasys.com issues a permanent 301 redirect to Cisco, where the
+  product now lives as Cisco Crosswork Hierarchical Controller. No independent developer portal, public
+  API, OpenAPI, or SDK surface exists for Sedona Systems; there is nothing to enrich beyond domain
+  posture. Any live API surface belongs to Cisco Crosswork and is out of scope for this profile.'
 url: https://raw.githubusercontent.com/api-evangelist/sedona-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-status: acquired
+x-acquired-by: cisco
+x-note: 'sedonasys.com 301-redirects to Cisco Crosswork Hierarchical Controller; no independent API surface.'
 tags:
 - Company
 - Deep Tech
+- Networking
+- Network Optimization
+- Optical Networking
+- Telecommunications
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sedona-systems-domain-security.yml
 - type: Website
   url: https://sedonasys.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
