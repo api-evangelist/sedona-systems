@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://sedonasys.com/', status: 301, note: 'declared website redirects to https://www.cisco.com/site/us/en/products/networking/software/crosswork-hierarchical-controller/index.html — a different registrable domain (sedonasys.com -> cisco.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sedona-systems.png
 name: Sedona Systems
 description: 'Sedona Systems was an Israeli deep-tech networking company (multi-layer / multi-domain
